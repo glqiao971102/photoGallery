@@ -1,0 +1,52 @@
+
+#search{
+    width: 600px;
+    height: 25px;
+    padding: 10px;
+    border-radius: 10px;
+    border-color: black;
+}
+
+img{ 
+    width: 300px;
+    height: 300px;
+}
+
+.wrapper{
+    text-align: center;
+
+}
+
+.container {
+
+    
+    display: flex;
+    flex-wrap: wrap;
+    margin: 50px;
+    justify-content: center;
+    
+    
+  }
+  .items {
+    
+    flex: 1 400px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+
+
+  .lb-data .lb-details {
+    
+    max-width: 600px;
+    
+}
+
+/* media quesries */
+
+@media(max-width:768px){
+  img{ 
+    width: 350px;
+    height: 350px;
+}
+
+}
